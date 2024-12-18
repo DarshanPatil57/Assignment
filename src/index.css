@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    overflow-x: hidden;
+  }
+  
+
+.light {
+    background-color: #f0f0f0;
+    color: black;
+  }
+  
+  .dark {
+    background-color: #121212;
+    color: white;
+  }
+  
+  .bg-slate-50 {
+    background-color: #f9fafb; 
+  }
+  
+  .bg-gray-700 {
+    background-color: #374151; 
+  }
+  
+  .text-black {
+    color: black;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+
+  input::placeholder {
+    color: #6b7280; 
+    opacity: 1; 
+  }
+
+
+
+  select{
+    color: #121212;
+  }
